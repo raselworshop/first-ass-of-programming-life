@@ -12,6 +12,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
 }
 .name-resume-sect{
     border: 2px solid red;
@@ -40,4 +43,72 @@ body{
     border: 1px solid rgb(14, 20, 34);
     border-radius: 8px;
     opacity: 0.6;
+}
+/* future web development banner start here */
+.future-web-banner-container{
+    width: 1440px;
+    height: 652px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-image: url('/assets/Hero-bg.png');
+    background-blend-mode: overlay;
+    border: 2px solid red;
+}
+.future-web-banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 998px;
+    height: 581px;
+    position: relative;
+    margin-top: 32px;
+}
+.future-web-banner-image{
+    width: 240.28px;
+    height: 240px;
+    position: absolute;
+    top: 30px;
+    margin-bottom: 24px;
+}
+.future-web-banner-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    width: 998px;
+    height: 136px;
+    position: absolute;
+    bottom: 175px;
+    text-align: center;
+}
+.future-web-banner-content p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 101px;
+    text-align: center;
+}
+#connectbtn button{
+    width: 244px;
+    height: 65px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    bottom: 32px;
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    margin: 0 auto;
 }
