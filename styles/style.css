@@ -53,6 +53,7 @@ body{
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    gap: 20px;
     background-image: url('../assets/Hero-bg.png');
     background-blend-mode: overlay;
     border: 2px solid red;
@@ -159,7 +160,7 @@ body{
     height: 1072px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content:space-around;
     align-items: center;
     margin: 0 auto;
     background-color: white;
@@ -331,6 +332,7 @@ body{
     align-items: center;
     margin: 0 auto;
     width: 1140px;
+    margin-top: 50px;
     height: 775px;
     border: 1px solid red;
 }
@@ -364,25 +366,28 @@ body{
     border-radius: 16px;
 }
 /* my current target style start here */
-.my-current-target-container{
+.my-skillset-target-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     border: 1px solid red;
+    width: 1140px;
+    height: 1437px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.mycurrent-target-content-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     width: 1140px;
     height: 460px;
     margin: 0 auto;
 }
-.mycurrent-target-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 852px;
-    height: 113px;
-}
-.mycurrent-target-content h1{
+
+.mycurrent-target-content-header h1{
     width: 852px;
     height: 37px;
     color: rgb(13, 19, 33);
@@ -391,12 +396,129 @@ body{
     font-weight: 800;
     text-align: center;
 }
-.mycurrent-target-content p{
+.mycurrent-target-content-header p{
     width: 852px;
     height: 52px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    margin-top: 10px;
     text-align: center;
+}
+/* current target skill div style start */
+.my-current-target-skills{
+    border: 1px solid red;
+    width: 1140px;
+    height: 460px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin: o auto;
+}
+.btnlearn{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;}
+.target-skill-content-html{
+    border: 1px solid red;
+    width: 305px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgb(255, 255, 255);
+    margin: 25px;
+    padding: 28px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-skill-content-html img{
+    width: 53.22px;
+    height: 53.23px;
+}
+.target-skill-content-html h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.target-skill-content-html p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+/* style for css taget */
+.target-skill-content-css{
+    border: 1px solid red;
+    width: 305px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgb(255, 255, 255);
+    margin: 25px;
+    padding: 28px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-skill-content-css img{
+    width: 53.22px;
+    height: 53.23px;
+}
+.target-skill-content-css h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.target-skill-content-css p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+/* style js target */
+.target-skill-content-js{
+    border: 1px solid red;
+    width: 305px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: rgb(255, 255, 255);
+    margin: 25px;
+    padding: 28px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-skill-content-js img{
+    width: 53.22px;
+    height: 53.23px;
+}
+.target-skill-content-js h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.target-skill-content-js p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
 }
