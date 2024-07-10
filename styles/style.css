@@ -17,7 +17,6 @@ body{
 
 }
 .name-resume-sect{
-    border: 2px solid red;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -56,7 +55,6 @@ body{
     gap: 20px;
     background-image: url('../assets/Hero-bg.png');
     background-blend-mode: overlay;
-    border: 2px solid red;
     margin-bottom: 50px;
 }
 .future-web-banner-content{
@@ -116,7 +114,6 @@ body{
 }
 /* why web development section start here */
 .why-development-container{
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -155,7 +152,6 @@ body{
 }
 /* main body style start here */
 .main-content-start{
-    border: 2px solid red;
     width: 946px;
     height: 1072px;
     display: flex;
@@ -175,7 +171,6 @@ body{
     height: 336px;
     padding: 48px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .section-one-content{
     display: flex;
@@ -228,7 +223,6 @@ body{
     height: 336px;
     padding: 48px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .section-two-content{
     display: flex;
@@ -281,7 +275,6 @@ body{
     height: 336px;
     padding: 48px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .section-three-content{
     display: flex;
@@ -334,7 +327,6 @@ body{
     width: 1140px;
     margin-top: 50px;
     height: 775px;
-    border: 1px solid red;
 }
 .my-inspiration-text{
     width: 852px;
@@ -371,7 +363,6 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 1px solid red;
     width: 1140px;
     height: 1437px;
     margin: 0 auto;
@@ -408,7 +399,6 @@ body{
 }
 /* current target skill div style start */
 .my-current-target-skills{
-    border: 1px solid red;
     width: 1140px;
     height: 460px;
     display: flex;
@@ -425,7 +415,6 @@ body{
     text-align: left;
     text-decoration-line: underline;}
 .target-skill-content-html{
-    border: 1px solid red;
     width: 305px;
     height: 219px;
     display: flex;
@@ -458,7 +447,6 @@ body{
 }
 /* style for css taget */
 .target-skill-content-css{
-    border: 1px solid red;
     width: 305px;
     height: 219px;
     display: flex;
@@ -491,7 +479,6 @@ body{
 }
 /* style js target */
 .target-skill-content-js{
-    border: 1px solid red;
     width: 305px;
     height: 219px;
     display: flex;
@@ -524,7 +511,6 @@ body{
 }
 /* my next target style start here */
 .my-next-targeted-skills-container{
-    border:1px solid red;
     width: 1140px;
     height: 866px;
     display: flex;
@@ -560,7 +546,6 @@ body{
 }
 /* next target content detail style here */
 .next-target-contents{
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     justify-content: left;
@@ -608,7 +593,6 @@ body{
 }
 /* support secttion styling start here */
 .need-support-sect-container{
-    border: 1px solid red;
     width: 1140px;
     height: 313px;
     display: flex;
@@ -619,6 +603,7 @@ body{
     background-image: url('../assets/handshake.jpg');
     background-position: center;
     background-size: cover;
+    background-blend-mode: overlay;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
 }
 .need-support-content{
@@ -703,13 +688,12 @@ button>input{
 .footer-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items:center;
     width: 1440px;
     height: 100px;
     padding: 20px;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .footer-container .contents{
     width: 456px;
@@ -719,10 +703,33 @@ button>input{
     font-size: 20px;
     font-weight: 600;
 }
-.footer-container .social i{
+.social-link{
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: right;
+    margin: 0 auto;
+}
+.social-link .facebook{
+    width: 13.25px;
+    height: 28.25px;
+}
+.social-link .github{
+    width: 36.86px;
+    height: 35.95px;
+}
+.social-link .linkdin{
+    width: 36px;
+    height: 36px;
+}
+
+/*these are not need but i need to use why i ai'nt?
+ .footer-container .social i{
     width: 157.01px;
     height: 36px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;}
+    align-items: center;
+} */
