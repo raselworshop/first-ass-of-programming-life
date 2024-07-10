@@ -522,3 +522,87 @@ body{
     font-weight: 400;
     text-align: left;
 }
+/* my next target style start here */
+.my-next-targeted-skills-container{
+    border:1px solid red;
+    width: 1140px;
+    height: 866px;
+    display: flex;
+    flex-direction:  column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.my-next-target-content{
+    display: flex;
+    flex-direction:  column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 852px;
+    height: 37px;
+    margin-bottom: 30px;
+}
+.my-next-target-content h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    padding: 8px;
+}
+.my-next-target-content p{
+    width: 852px;
+    height: 52px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+/* next target content detail style here */
+.next-target-contents{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 30px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+.imageforone img{
+    width: 94.78px;
+    height: 84.41px;
+    margin: 30px;
+}
+.skills-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.skills-desc h1{
+    width: 110px;
+    height: 36px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+}
+.skills-desc p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.skills-desc span{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
+}
