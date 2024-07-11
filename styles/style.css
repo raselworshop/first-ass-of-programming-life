@@ -600,10 +600,12 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    margin-bottom: 50px;
     background-image: url('../assets/handshake.jpg');
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
+    border-radius: 14px;
     background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
 }
 .need-support-content{
