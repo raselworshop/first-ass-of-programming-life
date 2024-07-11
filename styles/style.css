@@ -670,6 +670,7 @@ body{
 .form-section button{
     border: none;
     width: 120px;
+    margin: 0 20px;
     height: 57px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
@@ -679,7 +680,6 @@ button>input{
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    margin: 0 20px;
     width: 80px;
     height: 23px;
     text-align: center
@@ -692,8 +692,8 @@ button>input{
     flex-direction: row;
     justify-content:space-between;
     align-items:center;
-    width: 1440px;
-    height: 100px;
+    width: 1140px;
+    height: 36px;
     padding: 20px;
     margin: 0 auto;
 }
