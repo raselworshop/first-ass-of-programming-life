@@ -366,7 +366,7 @@ body{
     width: 1140px;
     height: 1437px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 112px;
 }
 .mycurrent-target-content-header{
     display: flex;
@@ -489,7 +489,7 @@ body{
     margin: 25px;
     padding: 28px;
     border-radius: 16px;
-    background: rgba(255, 76, 30, 0.05);
+    background: rgba(255, 223, 0, 0.05);
 }
 .target-skill-content-js img{
     width: 53.22px;
@@ -525,7 +525,7 @@ body{
     align-items: center;
     width: 852px;
     height: 37px;
-    margin-bottom: 30px;
+    margin-bottom: 104px;
 }
 .my-next-target-content h1{
     color: rgb(13, 19, 33);
@@ -600,7 +600,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     background-image: url('../assets/handshake.jpg');
     background-position: center;
     background-size: cover;
